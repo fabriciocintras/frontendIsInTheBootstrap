@@ -1,9 +1,12 @@
+*{
+    box-sizing: border-box;padding: 0;margin: 0;
+}
 .corDeFundoRoxo{
     background-color: #53135D;
 }
 .bannerPromocao{
     height: 500px;
-    background-image: url("img/fashion-1031469_1920.jpg");
+    background-image: url("img/fashion-1031469_1920.jpg"); background-repeat: no-repeat;
     background-size: cover;
 }
 .botaoCentralizadoNoBanner{
