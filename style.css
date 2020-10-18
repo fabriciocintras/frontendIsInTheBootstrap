@@ -4,6 +4,9 @@
 .corDeFundoRoxo{
     background-color: #53135D;
 }
+.altura{
+    height: 100px;
+}
 .bannerPromocao{
     height: 500px;
     background-image: url("img/fashion-1031469_1920.jpg"); background-repeat: no-repeat;
@@ -35,9 +38,11 @@
 .categoria img{
     width: 100%;
 }
+
 .circulo{
     width: 150px;
     height: 150px;
+    margin: 5px;
     border: 5px solid rgb(170, 170, 170);
     border-radius: 50%;
 }
