@@ -1,6 +1,16 @@
-*{
-    box-sizing: border-box;padding: 0;margin: 0;
+html, body{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 0;
+    margin: 0;
+    background:#ffffff0c;
 }
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+a,p,h3,h2,h1,li,ul,div,section{padding: 0;}
+
 .corDeFundoRoxo{
     background-color: #53135D;
 }
@@ -53,4 +63,22 @@
 }
 .boxImg img{
     width: 100%;
+}
+.logo{
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: white;
+    padding: 0 10px;
+}
+.input-menu
+{
+    width:300px;
+      height: 40px;
+      margin: 0 auto;
+      border: none; 
+      border:solid 1px #ccc;
+      border-radius: 35px;
+    padding: 0 20px;
+    
+    
 }
