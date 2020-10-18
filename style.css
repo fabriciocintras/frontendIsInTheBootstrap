@@ -8,9 +8,9 @@
     height: 100px;
 }
 .bannerPromocao{
-    height: 500px;
-    background-image: url("img/fashion-1031469_1920.jpg"); background-repeat: no-repeat;
-    background-size: cover;
+    height: 520px;
+    background-image: url("img/fashion-1031469_1920.jpg"); 
+    background-size: cover;background-position: center; background-repeat: no-repeat;
 }
 .botaoCentralizadoNoBanner{
     display: flex;
@@ -31,19 +31,18 @@
     width: 80%; margin: 0 auto ;
 }
 .categoria{
-    width: 280px;
-    height: 400px;
-    
+    width: 240px;
+    height: 300px;
+    overflow: hidden;
 }
 .categoria img{
     width: 100%;
 }
 
 .circulo{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin: 5px;
-    border: 5px solid rgb(170, 170, 170);
     border-radius: 50%;
 }
 .circulo img{
