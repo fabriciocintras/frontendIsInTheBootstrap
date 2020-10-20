@@ -9,11 +9,11 @@
     <title>Fabricio Alves</title>
 </head>
 <body>
-    <div class="container-fluid corDeFundoRoxo " >
+    <div class="container-fluid corDeFundoRoxo position-fixed" >
         <main class="row">
             <main class="col-12">
                 <nav class=" d-flex justify-content-around navbar navbar-expand-lg ">
-                    <a class="logo text-dark navbar-brand">
+                    <a class="logo text-dark navbar-brand ">
                          Fabricio Alves
                     </a>
                     <div class="pesquisa d-none  d-sm-block">
@@ -21,7 +21,7 @@
                     </div>
                     <ul class="d-flex ">
                          <li class="nav-item px-1"><a href="#" class="text-dark font-weight-bolder">Carrinho</a> </li>
-                         <li class="nav-item active px-1" data-toggle="modal" data-target="#menuModal"><a href="#" class="text-dark font-weight-bolder">Login</a></li>
+                         <li class="nav-item px-1" data-toggle="modal" data-target="#menuModal"><a href="#" class="text-dark font-weight-bolder">Login</a></li>
                     </ul>
                 </nav>
             </main>
@@ -104,7 +104,7 @@
                       <input type="text" name="" id="">
                     </p>
                     <p>
-                      <input type="button" name="" id="" value="ENTRAR">
+                     <button class="btn btn-primary">ENTRAR</button>
                     </p>
                   </form>
                 </div>
@@ -128,10 +128,23 @@
       <button type="button" class="btn btn-outline-dark font-weight-bold">acesse AGORA!</button>
       </section>
 
-    <section class="container-fluid  mt-2 py-4">
+      <section class="container-fluid d-none  d-sm-block mt-2 py-4">
+        <section class="row">
+            <section class=" col-12 my-2">
+                <section class="d-flex  flex-wrap justify-content-center  ">
+                    <div class="leveMaisPagueMenos col-5 m-2">LEVE 3 PAGUE 2</div>
+                    <div class="leveMaisPagueMenos col-5 m-2">2 POR 99,90</div>
+                    <div class="leveMaisPagueMenos col-5 m-2">3 POR 99,90</div>
+                    <div class="leveMaisPagueMenos col-5 m-2">4 POR 99,90</div>
+                </section>
+            </section>
+        </section>
+        </section>
+
+    <section class="container-fluid  d-sm-none mt-2 py-4">
     <section class="row">
         <section class=" col-12 my-2">
-            <section class="d-flex flex-wrap justify-content-center  ">
+            <section class="d-flex overflow-auto   ">
                 <div class="leveMaisPagueMenos col-5 m-2">LEVE 3 PAGUE 2</div>
                 <div class="leveMaisPagueMenos col-5 m-2">2 POR 99,90</div>
                 <div class="leveMaisPagueMenos col-5 m-2">3 POR 99,90</div>
@@ -140,8 +153,9 @@
         </section>
     </section>
     </section>
+    
 
-    <section class="container-fluid d-none  d-sm-block mt-2 py-4" id="categorias">
+    <section class="container-fluid d-none d-sm-block mt-2 py-4" id="categorias">
         <section class="row">
             <section class="col-12  d-flex justify-content-center">
                 <section>
@@ -211,16 +225,17 @@
         </section>
     </section>
 
-<div class="container-fluid d-sm-none  py-4 my-2">
-        <h4 class=" text-center py-4 corDoTitulo">CATEGORIA</h4>
-    <div id="carouselExampleFade" class="carousel width80 slide carousel-fade " data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active d-flex flex-row margin-auto ">
+
+       
+    <div id="carouselExampleFade" class="carousel  slide carousel-fade  d-sm-none" data-ride="carousel">
+      
+        <div class="carousel-inner ">
+          <div class="carousel-item active d-flex">
             <div class="circulo "><img src="img/football-3471402_1920@2x.png" class="d-block w-100" alt=""></div>
             <div class="circulo"><img src="img/beach-2179183_1920.png" class="d-block w-100" alt=""></div>
             <div class="circulo"><img src="img/new-zealand-583174_1920@2x.png" class="d-block w-100" alt=""></div>
           </div>
-          <div class="carousel-item d-flex flex-row margin-auto">
+          <div class="carousel-item d-flex">
             <div class="circulo"><img src="img/climbing-2264698_1920.png" class="d-block w-100" alt=""></div>
             <div class="circulo"><img src="img/fitness-2378982_1920@2x.png"class="d-block w-100" alt=""></div>
             <div class="circulo"><img src="img/bicycle-789648_1920.png"class="d-block w-100" alt=""></div>
@@ -239,24 +254,24 @@
     </div>
 
 
-    <section class="container-fluid my-4 py-4">
+    <section class="container py-4">
     
-        <section class="row d-flex justify-content-center ">
-            <h4 class="py-4 corDoTitulo">ALGUMAS MARCAS</h4>
-            <section class="col-sm-11 margin-auto">
+        <section class=" text-center  ">
+            <h4 class=" corDoTitulo ">ALGUMAS MARCAS</h4>
+            <section class="">
                 
-                <div class="  d-flex justify-content-center py-2">
+                <div class="  d-flex justify-content-center">
 
-                    <div class="boxImg px-2"><img src="img/oakley-logo-2@2x.png"class="d-block w-100" alt=""></div>
-                    <div class="boxImg px-2"><img src="img/quiksilver-logo-1 (1).png"class="d-block w-100" alt=""></div>
-                    <div class="boxImg px-2"><img src="img/adidas-logo-1@2x.png"class="d-block w-100" alt=""></div>
+                    <div class="boxImg "><img src="img/oakley-logo-2@2x.png"class="d-block w-100" alt=""></div>
+                    <div class="boxImg "><img src="img/quiksilver-logo-1 (1).png"class="d-block w-100" alt=""></div>
+                    <div class="boxImg "><img src="img/adidas-logo-1@2x.png"class="d-block w-100" alt=""></div>
                 </div>
             </section>
         </section>
     </section>
     
-   <section class="corDeFundoRoxo">
-  <p class="text-center">TODOS OS DIREITOS RESERVADOS</p>
+   <section class="p-3 text-center bg-dark text-white">
+ Todos os direitos reservados
 
    </section>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

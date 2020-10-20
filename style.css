@@ -11,7 +11,7 @@ html, body{
 a,p,h3,h2,h1,li,ul,div,section{padding: 0;}
 
 .corDeFundoRoxo{
-    background-color: #FFF8F0;
+    background-color: #FFF8F0;z-index: 10;
 }
 .corDoTitulo{
     color: #9E2B25;
@@ -53,20 +53,16 @@ a,p,h3,h2,h1,li,ul,div,section{padding: 0;}
 
 .circulo{
     width: 150px;
-    height: 150px;
-    margin: 5px;
     border-radius: 50%;
+    margin: 10px;
 }
 .circulo img{
     width: 100%;
 }
 .boxImg {
     width: 150px;
-    height: 150px;
     margin: 5px;
-    border-radius: 50%;
-    display: flex;align-items: center;flex-wrap: wrap;
-    background:#84272c63;
+   
 }
 .boxImg img{
     width: 100%;
@@ -75,7 +71,7 @@ a,p,h3,h2,h1,li,ul,div,section{padding: 0;}
     font-weight: bolder;
     font-size: 1.4em;
     color: rgb(90, 90, 90);
-    padding: 0 10px;
+    padding: 0px;
 }
 .input-menu
 {
