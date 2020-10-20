@@ -61,7 +61,12 @@ a,p,h3,h2,h1,li,ul,div,section{padding: 0;}
     width: 100%;
 }
 .boxImg {
-    width: 15%;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border-radius: 50%;
+    display: flex;align-items: center;flex-wrap: wrap;
+    background:#84272c63;
 }
 .boxImg img{
     width: 100%;
